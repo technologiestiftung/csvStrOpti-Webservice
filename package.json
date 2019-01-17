@@ -19,7 +19,7 @@
   "dependencies": {
     "csv-string-optimization": "^1.0.1",
     "d3-dsv": "^1.0.8",
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "formidable": "^1.2.1"
   }
 }
