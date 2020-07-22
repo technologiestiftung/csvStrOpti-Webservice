@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "A webservice for utilizing the csv-string-optimization module",
   "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "inpyjamas-scripts test"
   },
   "repository": {
     "type": "git",
@@ -18,8 +21,14 @@
   "homepage": "https://github.com/technologiestiftung/csvStrOpti-Webservice#readme",
   "dependencies": {
     "csv-string-optimization": "^1.0.1",
-    "d3-dsv": "^1.0.8",
-    "express": "^4.16.3",
-    "formidable": "^1.2.1"
+    "d3-dsv": "^1.0.8"
+  },
+  "devDependencies": {
+    "@inpyjamas/scripts": "0.1.5-alpha",
+    "@types/d3-dsv": "^1.0.36",
+    "@types/formidable": "^1.0.31",
+    "@types/micro": "7.3.3",
+    "@vercel/node": "1.7.3",
+    "eslint": "7.5.0"
   }
 }
